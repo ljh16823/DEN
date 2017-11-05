@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.ljh16.den.MainActivity">
 
-// android:background는 배경 투명도를 설정하는 코드
+    //android:background는 배경 투명도를 설정하는 코드
+    //파일명은 반드시 영어로. 한글로하면 인식 안됨
+    //주석은 태그내에서는 못씀. 태그 밖에서 주석 달기
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -18,6 +20,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/지도로검색" />
+        app:srcCompat="@drawable/searchbymap" />
 
 </android.support.constraint.ConstraintLayout>
