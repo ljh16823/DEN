@@ -10,6 +10,7 @@
     //파일명은 반드시 영어로. 한글로하면 인식 안됨
     //주석은 태그내에서는 못씀. 태그 밖에서 주석 달기
     //main color는 00 114 63
+    //android:src 는 xml파일을 불러와 실행시킹
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -26,7 +27,7 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="300dp"
+        android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
@@ -39,7 +40,7 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="300dp"
+        android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
@@ -54,7 +55,7 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="300dp"
+        android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toBottomOf="parent"
