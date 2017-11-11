@@ -26,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".mapsuch"> </activity> //loading이 끝난 후 메인 엑티비티가 실행됨.
+
     </application>
 
 </manifest>
