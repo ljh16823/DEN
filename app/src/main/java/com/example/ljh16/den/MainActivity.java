@@ -13,15 +13,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageButton a = (ImageButton) findViewById(R.id.imageButton);
-        ImageButton b = (ImageButton) findViewById(R.id.imageButton2);
-        ImageButton c = (ImageButton) findViewById(R.id.imageButton3);
-        ImageButton d = (ImageButton) findViewById(R.id.imageButton4);
-        a.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton);
+        ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
+        ImageButton imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
+        ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
+        imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mapsuchintent = new Intent(MainActivity.this, mapsuch.class);
-                MainActivity.this.startActivity(mapsuchintent);
+                Intent mapsuchIntent = new Intent(MainActivity.this, mapsuch.class);
+                MainActivity.this.startActivity(mapsuchIntent);
             }
         });
     }
