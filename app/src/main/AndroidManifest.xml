@@ -17,7 +17,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"> </activity> //loading이 끝난 후 메인 엑티비티가 실행됨.
+        <activity android:name=".MainActivity"> // 처음 시작하는 엑티비티를 loading으로 추가
+            //엑티비티.xml에 intent를 추가하면 메인페스트.xml에 밑에 인텐트 함수들이 추가됨
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mapsuch"> </activity> //loading이 끝난 후 메인 엑티비티가 실행됨.
     </application>
 
 </manifest>
