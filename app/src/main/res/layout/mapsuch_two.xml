@@ -8,7 +8,6 @@
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/frameLayout4"
         android:layout_width="417dp"
-
         android:layout_height="257dp"
         android:layout_marginBottom="138dp"
         android:layout_marginTop="116dp"
@@ -25,7 +24,7 @@
         android:layout_width="31dp"
         android:layout_height="21dp"
         android:layout_marginStart="32dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteY="195dp" />
@@ -35,7 +34,7 @@
         android:layout_width="26dp"
         android:layout_height="26dp"
         android:layout_marginStart="52dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteY="220dp" />
@@ -46,7 +45,7 @@
         android:layout_height="21dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintEnd_toStartOf="@+id/imageButton5"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:srcCompat="@drawable/white"
@@ -57,7 +56,7 @@
         android:layout_width="20dp"
         android:layout_height="22dp"
         android:layout_marginTop="224dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="107dp" />
@@ -67,7 +66,7 @@
         android:layout_width="20dp"
         android:layout_height="22dp"
         android:layout_marginTop="20dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="83dp" />
@@ -77,7 +76,7 @@
         android:layout_width="31dp"
         android:layout_height="26dp"
         android:layout_marginStart="8dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteY="234dp" />
@@ -88,7 +87,7 @@
         android:layout_height="26dp"
         android:layout_marginEnd="200dp"
         android:layout_marginTop="28dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
         app:srcCompat="@drawable/white" />
@@ -97,7 +96,7 @@
         android:id="@+id/imageButton9"
         android:layout_width="28dp"
         android:layout_height="22dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintBottom_toTopOf="@+id/imageButton8"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="170dp" />
@@ -107,7 +106,7 @@
         android:layout_width="30dp"
         android:layout_height="27dp"
         android:layout_marginEnd="96dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteY="230dp" />
@@ -117,7 +116,7 @@
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_marginEnd="96dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteY="198dp" />
@@ -127,7 +126,7 @@
         android:layout_width="31dp"
         android:layout_height="26dp"
         android:layout_marginStart="196dp"
-        android:background="#00ff0000"
+        android:background="@null"
         android:src="@drawable/bui_press"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/white"
@@ -138,7 +137,7 @@
         android:layout_width="19dp"
         android:layout_height="10dp"
         android:layout_marginTop="208dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="63dp" />
@@ -149,7 +148,7 @@
         android:layout_height="32dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintEnd_toStartOf="@+id/imageButton12"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
@@ -161,7 +160,7 @@
         android:layout_width="43dp"
         android:layout_height="29dp"
         android:layout_marginTop="12dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintTop_toBottomOf="@+id/imageButton14"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="204dp" />
@@ -171,7 +170,7 @@
         android:layout_width="31dp"
         android:layout_height="17dp"
         android:layout_marginEnd="96dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteY="161dp" />
@@ -181,7 +180,7 @@
         android:layout_width="31dp"
         android:layout_height="17dp"
         android:layout_marginTop="144dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="198dp" />
@@ -191,11 +190,10 @@
         android:layout_width="24dp"
         android:layout_height="26dp"
         android:layout_marginTop="168dp"
-        android:background="#00ff0000"
+        android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="230dp" />
-
 
 </android.support.constraint.ConstraintLayout>
 
