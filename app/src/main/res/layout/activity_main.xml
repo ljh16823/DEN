@@ -13,20 +13,19 @@
     //android:src 는 xml파일을 불러와 실행시킹
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton"
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        android:src="@drawable/map_press"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/map_press"
         app:srcCompat="@drawable/searchbymap" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton2"
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
@@ -34,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
         android:src="@drawable/bui_press"
         app:srcCompat="@drawable/searchbybuilding" />
 
@@ -46,9 +45,9 @@
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.0"
         android:src="@drawable/fa_press"
         app:srcCompat="@drawable/favorite" />
