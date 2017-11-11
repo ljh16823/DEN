@@ -1,13 +1,12 @@
 package com.example.ljh16.den;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageButton;
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
 
-public class mapsuch extends AppCompatActivity {
+public class mapsuch extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
