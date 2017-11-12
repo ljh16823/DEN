@@ -17,6 +17,7 @@
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
+        android:onClick="OnClick"
         android:src="@drawable/map_press"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,12 +30,13 @@
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
+        android:onClick="OnClick2"
+        android:src="@drawable/bui_press"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        android:src="@drawable/bui_press"
         app:srcCompat="@drawable/searchbybuilding" />
 
     <ImageButton
@@ -42,6 +44,7 @@
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
+        android:src="@drawable/fa_press"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -49,7 +52,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.0"
-        android:src="@drawable/fa_press"
         app:srcCompat="@drawable/favorite" />
 
     <ImageButton
@@ -57,12 +59,12 @@
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
+        android:src="@drawable/ps_press"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        android:src="@drawable/ps_press"
         app:srcCompat="@drawable/personalschedule" />
 
 </android.support.constraint.ConstraintLayout>

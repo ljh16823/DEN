@@ -19,9 +19,16 @@ public class MainActivity extends AppCompatActivity {
         ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent mapsuchIntent = new Intent(MainActivity.this, mapsuch.class);
-                MainActivity.this.startActivity(mapsuchIntent);
+            public void onClick(View v) {
+                Intent imageBuIntent = new Intent(MainActivity.this, mapsuch.class);
+                MainActivity.this.startActivity(imageBuIntent);
+            }
+        });
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent imageBu2Intent = new Intent(MainActivity.this, searchbybuilding.class);
+                MainActivity.this.startActivity(imageBu2Intent);
             }
         });
     }
