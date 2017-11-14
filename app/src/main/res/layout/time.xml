@@ -32,12 +32,12 @@
     <CheckBox
         android:id="@+id/Mon3"
         android:layout_width="62dp"
-        android:layout_height="49dp"
+        android:layout_height="50dp"
         android:button="@null"
         android:background="@drawable/selector_checkbox"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="155dp"/>
+        tools:layout_editor_absoluteY="154dp"/>
     <CheckBox
         android:id="@+id/Mon4"
         android:layout_width="62dp"
@@ -113,12 +113,12 @@
     <CheckBox
         android:id="@+id/Tues3"
         android:layout_width="62dp"
-        android:layout_height="49dp"
+        android:layout_height="50dp"
         android:button="@null"
         android:background="@drawable/selector_checkbox"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="155dp"/>
+        tools:layout_editor_absoluteY="154dp"/>
     <CheckBox
         android:id="@+id/Tues4"
         android:layout_width="62dp"
@@ -194,12 +194,12 @@
     <CheckBox
         android:id="@+id/Wednes3"
         android:layout_width="62dp"
-        android:layout_height="49dp"
+        android:layout_height="50dp"
         android:button="@null"
         android:background="@drawable/selector_checkbox"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="155dp"/>
+        tools:layout_editor_absoluteY="154dp"/>
     <CheckBox
         android:id="@+id/Wednes4"
         android:layout_width="62dp"
@@ -275,12 +275,12 @@
     <CheckBox
         android:id="@+id/Thurs3"
         android:layout_width="62dp"
-        android:layout_height="49dp"
+        android:layout_height="50dp"
         android:button="@null"
         android:background="@drawable/selector_checkbox"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="155dp"/>
+        tools:layout_editor_absoluteY="154dp"/>
     <CheckBox
         android:id="@+id/Thurs4"
         android:layout_width="62dp"
@@ -356,12 +356,12 @@
     <CheckBox
         android:id="@+id/Fri3"
         android:layout_width="62dp"
-        android:layout_height="49dp"
+        android:layout_height="50dp"
         android:button="@null"
         android:background="@drawable/selector_checkbox"
         app:srcCompat="@drawable/white"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="155dp"/>
+        tools:layout_editor_absoluteY="154dp"/>
     <CheckBox
         android:id="@+id/Fri4"
         android:layout_width="62dp"
