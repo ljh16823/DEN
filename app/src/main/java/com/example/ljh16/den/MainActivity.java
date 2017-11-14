@@ -28,9 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent imageBu2Intent = new Intent(MainActivity.this, searchbybuilding.class);
-                Intent imageBu3Intent = new Intent(MainActivity.this, Adapter.class);
                 MainActivity.this.startActivity(imageBu2Intent);
-                MainActivity.this.startActivity(imageBu3Intent);
             }
         });
     }
