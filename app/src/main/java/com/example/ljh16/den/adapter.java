@@ -8,27 +8,30 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+import android.content.Intent;
+import android.app.Activity;
+import android.os.Bundle;
 
 /**
  * Created by pshbo on 2017-11-11.
  */
 
-public class Adapter extends PagerAdapter {
 
-    private int[] images = {R.drawable.building2,R.drawable.building3,R.drawable.building4,R.drawable.building9,R.drawable.building10,R.drawable.building12,R.drawable.building13,R.drawable.building19,R.drawable.building20,R.drawable.building24,R.drawable.building27,R.drawable.building29,R.drawable.building31,R.drawable.building32 };
+public class adapter extends PagerAdapter {
+
+
+    private int[] images = {R.drawable.building2,R.drawable.building3,R.drawable.building4,R.drawable.building9,R.drawable.building10,R.drawable.building12,R.drawable.building13,R.drawable.building19,R.drawable.building20,R.drawable.building24,R.drawable.building27,R.drawable.building29,R.drawable.building31,R.drawable.building32};
     private LayoutInflater inflater;
     private Context context;
 
-    public Adapter(Context context) {
+    public adapter(Context context) {
         this.context = context;
 
     }
 
-
     @Override
     public int getCount() {
-        return 0;
+        return images.length;
     }
 
     @Override

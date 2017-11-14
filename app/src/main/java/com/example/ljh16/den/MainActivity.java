@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent imageBu2Intent = new Intent(MainActivity.this, searchbybuilding.class);
+                Intent imageBu2Intent = new Intent(MainActivity.this, slideractivity.class);
                 MainActivity.this.startActivity(imageBu2Intent);
             }
         });
