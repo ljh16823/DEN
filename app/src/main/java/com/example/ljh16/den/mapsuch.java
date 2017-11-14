@@ -1,6 +1,7 @@
 package com.example.ljh16.den;
 
 import android.app.Activity;
+import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.os.Bundle;
 import android.content.Intent;
@@ -11,7 +12,7 @@ public class mapsuch extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mapsuch_two);
-        ImageButton igbutton = (ImageButton) findViewById(R.id.imageButton);
+        CheckBox igbutton = (CheckBox) findViewById(R.id.Mon1);
         ImageButton igbutton2 = (ImageButton) findViewById(R.id.imageButton2);
         ImageButton igbutton3 = (ImageButton) findViewById(R.id.imageButton3);
         ImageButton igbutton4 = (ImageButton) findViewById(R.id.imageButton4);
