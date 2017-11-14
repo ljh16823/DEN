@@ -21,7 +21,7 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="52dp"/>
     <CheckBox
-        android:id="@+id/Mun2"
+        android:id="@+id/Mon2"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -30,7 +30,7 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="103dp"/>
     <CheckBox
-        android:id="@+id/Mun3"
+        android:id="@+id/Mon3"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -39,7 +39,7 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="155dp"/>
     <CheckBox
-        android:id="@+id/Mun4"
+        android:id="@+id/Mon4"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -48,7 +48,7 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="206dp"/>
     <CheckBox
-        android:id="@+id/Mun5"
+        android:id="@+id/Mon5"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -57,7 +57,7 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="257dp"/>
     <CheckBox
-        android:id="@+id/Mun6"
+        android:id="@+id/Mon6"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -66,7 +66,7 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="308dp"/>
     <CheckBox
-        android:id="@+id/Mun7"
+        android:id="@+id/Mon7"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -75,7 +75,7 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="359dp"/>
     <CheckBox
-        android:id="@+id/Mun8"
+        android:id="@+id/Mon8"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -84,7 +84,7 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="410dp"/>
     <CheckBox
-        android:id="@+id/Mun9"
+        android:id="@+id/Mon9"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -309,7 +309,7 @@
         tools:layout_editor_absoluteX="257dp"
         tools:layout_editor_absoluteY="308dp"/>
     <CheckBox
-        android:id="@+id/thurs7"
+        android:id="@+id/Thurs7"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -336,7 +336,7 @@
         tools:layout_editor_absoluteX="257dp"
         tools:layout_editor_absoluteY="461dp"/>
     <CheckBox
-        android:id="@+id/Pri1"
+        android:id="@+id/Fri1"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -345,7 +345,7 @@
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="52dp"/>
     <CheckBox
-        android:id="@+id/pri2"
+        android:id="@+id/Fri2"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -354,7 +354,7 @@
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="103dp"/>
     <CheckBox
-        android:id="@+id/pri3"
+        android:id="@+id/Fri3"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -363,7 +363,7 @@
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="155dp"/>
     <CheckBox
-        android:id="@+id/pri4"
+        android:id="@+id/Fri4"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -372,7 +372,7 @@
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="206dp"/>
     <CheckBox
-        android:id="@+id/pri5"
+        android:id="@+id/Fri5"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -381,7 +381,7 @@
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="257dp"/>
     <CheckBox
-        android:id="@+id/pri6"
+        android:id="@+id/Fri6"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -390,7 +390,7 @@
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="308dp"/>
     <CheckBox
-        android:id="@+id/pri7"
+        android:id="@+id/Fri7"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -399,7 +399,7 @@
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="359dp"/>
     <CheckBox
-        android:id="@+id/pri8"
+        android:id="@+id/Fri8"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
@@ -408,7 +408,7 @@
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="410dp"/>
     <CheckBox
-        android:id="@+id/pri9"
+        android:id="@+id/Fri9"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:button="@null"
