@@ -21,12 +21,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        Intent imIntent = new Intent(this,mapsuch.class);
+        Intent imIntent = new Intent(this, mapsuch.class);
         startActivity(imIntent);
     }
 
     public void onClick2(View view) {
-        Intent im2Intent = new Intent(this,slideractivity.class);
+        Intent im2Intent = new Intent(this, slideractivity.class);
         startActivity(im2Intent);
     }
 }
