@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.ljh16.den.slideractivity">
-    <LinearLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -13,15 +8,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="xxxxx"
+            android:text=""
             android:id="@+id/textView"
             android:gravity="center"
             android:textSize="30dp"
             android:textStyle="bold"
-            android:layout_marginTop="30dp"
-            tools:ignore="SpUsage" />
+            android:layout_marginTop="30dp" />
 
-        <imageView
+        <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,4 +23,3 @@
 
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
