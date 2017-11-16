@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
         ImageButton imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
         ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
+<<<<<<< HEAD
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,5 +32,17 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(imageBu2Intent);
             }
         });
+=======
+    }
+
+    public void onClick(View view) {
+        Intent imIntent = new Intent(this, mapsuch.class);
+        startActivity(imIntent);
+    }
+
+    public void onClick2(View view) {
+        Intent im2Intent = new Intent(this, slideractivity.class);
+        startActivity(im2Intent);
+>>>>>>> e3d60e4dc22c2a45a4b9aa487da024f53d635fbd
     }
 }

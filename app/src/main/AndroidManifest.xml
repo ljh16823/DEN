@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity">
+<<<<<<< HEAD
             <intent-filter>
             <action android:name="android.intent.action.MAIN"/>
             <category android:name="android.intent.category.LAUNCHER"/>
@@ -32,6 +33,13 @@
             <action android:name="android.intent.action.MAIN"/>
             <category android:name="android.intent.category.LAUNCHER"/>
         </intent-filter>
+=======
+        </activity>
+        <activity android:name=".mapsuch" android:label="name">
+        </activity>
+        <activity
+            android:name=".slideractivity" android:label="name">
+>>>>>>> e3d60e4dc22c2a45a4b9aa487da024f53d635fbd
         </activity>
         <activity android:name=".time">
             <intent-filter>
