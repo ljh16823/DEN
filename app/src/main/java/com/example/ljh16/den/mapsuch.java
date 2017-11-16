@@ -131,7 +131,7 @@ public class mapsuch extends Activity {
                 mapsuch.this.startActivity(igbuttonIntent15);
             }
         });
-        ImageButton igbutton16 = (ImageButton) findViewById(R.id.imageButton16);
+        ImageButton igbutton16 = (ImageButton) findViewById(R.id.imageButton15);
         igbutton16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -139,7 +139,7 @@ public class mapsuch extends Activity {
                 mapsuch.this.startActivity(igbuttonIntent16);
             }
         });
-        ImageButton igbutton17 = (ImageButton) findViewById(R.id.imageButton17);
+        ImageButton igbutton17 = (ImageButton) findViewById(R.id.imageButton15);
         igbutton17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -11,29 +11,25 @@
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
-        android:onClick="onClick"
         android:src="@drawable/map_press"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/searchbymap"
-        tools:ignore="ContentDescription" />
+        app:srcCompat="@drawable/searchbymap" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:background="#00ff0000"
-        android:onClick="onClick2"
         android:src="@drawable/bui_press"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@drawable/searchbybuilding"
-        tools:ignore="ContentDescription" />
+        app:srcCompat="@drawable/searchbybuilding" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -48,8 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/favorite"
-        tools:ignore="ContentDescription" />
+        app:srcCompat="@drawable/favorite" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -62,7 +57,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@drawable/personalschedule"
-        tools:ignore="ContentDescription" />
+        app:srcCompat="@drawable/personalschedule" />
 
 </android.support.constraint.ConstraintLayout>

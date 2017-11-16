@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.widget.ImageButton;
 import android.view.View;
 import android.content.Intent;
-import android.view.View.OnClickListener;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +17,22 @@ public class MainActivity extends AppCompatActivity {
         ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
         ImageButton imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
         ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
+<<<<<<< HEAD
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent imageBuIntent = new Intent(MainActivity.this, mapsuch.class);
+                MainActivity.this.startActivity(imageBuIntent);
+            }
+        });
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent imageBu2Intent = new Intent(MainActivity.this, slideractivity.class);
+                MainActivity.this.startActivity(imageBu2Intent);
+            }
+        });
+=======
     }
 
     public void onClick(View view) {
@@ -28,5 +43,6 @@ public class MainActivity extends AppCompatActivity {
     public void onClick2(View view) {
         Intent im2Intent = new Intent(this, slider_main.class);
         startActivity(im2Intent);
+>>>>>>> e3d60e4dc22c2a45a4b9aa487da024f53d635fbd
     }
 }
