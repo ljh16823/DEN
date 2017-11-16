@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.widget.ImageButton;
 import android.view.View;
 import android.content.Intent;
-import android.view.View.OnClickListener;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,15 +17,19 @@ public class MainActivity extends AppCompatActivity {
         ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
         ImageButton imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
         ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
-    }
-
-    public void onClick(View view) {
-        Intent imIntent = new Intent(this,mapsuch.class);
-        startActivity(imIntent);
-    }
-
-    public void onClick2(View view) {
-        Intent im2Intent = new Intent(this,slideractivity.class);
-        startActivity(im2Intent);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent imageBuIntent = new Intent(MainActivity.this, mapsuch.class);
+                MainActivity.this.startActivity(imageBuIntent);
+            }
+        });
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent imageBu2Intent = new Intent(MainActivity.this, slideractivity.class);
+                MainActivity.this.startActivity(imageBu2Intent);
+            }
+        });
     }
 }
