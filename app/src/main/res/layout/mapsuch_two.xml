@@ -6,6 +6,7 @@
     android:layout_height="257dp"
     android:layout_marginBottom="138dp"
     android:layout_marginTop="116dp"
+    android:addStatesFromChildren="false"
     android:background="@drawable/tour_map05"
     android:visibility="visible"
     app:layout_constraintBottom_toBottomOf="parent"
@@ -17,25 +18,25 @@
         android:id="@+id/imageButton"
         android:layout_width="35dp"
         android:layout_height="21dp"
+        android:layout_marginLeft="44dp"
         android:layout_marginStart="44dp"
         android:background="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteY="80dp"
-        android:layout_marginLeft="44dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="80dp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="22dp"
         android:layout_height="22dp"
+        android:layout_marginLeft="68dp"
         android:layout_marginStart="68dp"
         android:background="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteY="108dp"
-        android:layout_marginLeft="68dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="108dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -45,8 +46,8 @@
         android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteX="101dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="101dp" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -56,8 +57,8 @@
         android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteX="123dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="123dp" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -67,20 +68,20 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteX="101dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="101dp" />
 
     <ImageButton
         android:id="@+id/imageButton7"
         android:layout_width="36dp"
         android:layout_height="26dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteY="115dp"
-        android:layout_marginLeft="8dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="115dp" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -90,8 +91,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteX="164dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="164dp" />
 
     <ImageButton
         android:id="@+id/imageButton9"
@@ -101,45 +102,45 @@
         android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteX="188dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="188dp" />
 
     <ImageButton
         android:id="@+id/imageButton12"
         android:layout_width="30dp"
         android:layout_height="27dp"
         android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
         android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteY="115dp"
         tools:ignore="MissingConstraints"
-        android:layout_marginRight="108dp" />
+        tools:layout_editor_absoluteY="115dp" />
 
     <ImageButton
         android:id="@+id/imageButton13"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
         android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteY="84dp"
         tools:ignore="MissingConstraints"
-        android:layout_marginRight="108dp" />
+        tools:layout_editor_absoluteY="84dp" />
 
     <ImageButton
         android:id="@+id/imageButton15"
         android:layout_width="31dp"
         android:layout_height="26dp"
+        android:layout_marginLeft="212dp"
         android:layout_marginStart="212dp"
         android:background="@null"
         android:src="@drawable/bui_press"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteY="58dp"
         tools:ignore="MissingConstraints"
-        android:layout_marginLeft="212dp" />
+        tools:layout_editor_absoluteY="58dp" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -149,8 +150,8 @@
         android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteX="80dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp" />
 
     <ImageButton
         android:id="@+id/imageButton10"
@@ -163,8 +164,8 @@
         app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteY="119dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="119dp" />
 
     <ImageButton
         android:id="@+id/imageButton11"
@@ -174,20 +175,20 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteX="230dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp" />
 
     <ImageButton
         android:id="@+id/imageButton14"
         android:layout_width="36dp"
         android:layout_height="17dp"
         android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
         android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteY="44dp"
         tools:ignore="MissingConstraints"
-        android:layout_marginRight="108dp" />
+        tools:layout_editor_absoluteY="44dp" />
 
     <ImageButton
         android:id="@+id/imageButton16"
@@ -207,8 +208,8 @@
         android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/white"
-        tools:layout_editor_absoluteX="243dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="243dp" />
 
 </android.support.constraint.ConstraintLayout>
 
