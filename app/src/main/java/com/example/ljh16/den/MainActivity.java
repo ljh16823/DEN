@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick2(View view) {
-        Intent im2Intent = new Intent(this, slideractivity.class);
+        Intent im2Intent = new Intent(this, slider_main.class);
         startActivity(im2Intent);
     }
 }
