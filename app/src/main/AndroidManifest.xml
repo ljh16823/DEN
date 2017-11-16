@@ -18,10 +18,9 @@
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".mapsuch" android:label="name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        </activity>
+        <activity
+            android:name=".slideractivity" android:label="name">
         </activity>
         <activity android:name=".time">
             <intent-filter>
@@ -29,12 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".slideractivity" android:label="name">
-            <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+
     </application>
 
 </manifest>
