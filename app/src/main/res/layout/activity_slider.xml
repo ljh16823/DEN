@@ -5,30 +5,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.ljh16.den.slideractivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="336dp"
-        android:layout_height="465dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="25dp">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:gravity="center"
-            android:text="xxxxx"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,SpUsage" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp" />
-
-    </LinearLayout>
-
+    <view
+        class="android.support.v4.view.ViewPager"
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
