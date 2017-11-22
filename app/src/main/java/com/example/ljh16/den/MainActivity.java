@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent imageBuIntent = new Intent(MainActivity.this, mapsuch.class);
+                Intent imageBuIntent = new Intent(MainActivity.this, MapActivity.class);
                 MainActivity.this.startActivity(imageBuIntent);
             }
         });
@@ -31,15 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(imageBu2Intent);
             }
         });
-    }
 
-    public void onClick(View view) {
-        Intent imIntent = new Intent(this, mapsuch.class);
-        startActivity(imIntent);
-    }
-
-    public void onClick2(View view) {
-        Intent im2Intent = new Intent(this, slideractivity.class);
-        startActivity(im2Intent);
     }
 }

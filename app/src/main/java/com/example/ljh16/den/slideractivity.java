@@ -14,6 +14,7 @@ import android.view.View;
 public class slideractivity extends Activity {
     adapter adapter;
     ViewPager viewPager;
+    ImageView imageView = (ImageView) findViewById(R.id.imageView);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
