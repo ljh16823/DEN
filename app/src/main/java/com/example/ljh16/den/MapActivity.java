@@ -12,15 +12,15 @@ public class MapActivity extends AppCompatActivity {
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_map);
-        Button bu = (Button) findViewById(R.id.bu);
-        bu.setOnClickListener(new View.OnClickListener() {
+        Button Bu = findViewById(R.id.Bu);
+        Bu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            Intent buIntent = new Intent(MapActivity.this, time.class);
-            startActivity(buIntent);
+                Intent BuIntent = new Intent(MapActivity.this, time.class);
+                startActivity(BuIntent);
             }
         });
-        Button Bu2 = (Button) findViewById(R.id.Bu2);
+        Button Bu2 =  findViewById(R.id.Bu2);
         Bu2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,7 +28,7 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(Bu2Intent);
             }
         });
-        Button Bu3 = (Button) findViewById(R.id.Bu3);
+        Button Bu3 = findViewById(R.id.Bu3);
         Bu3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,7 +36,7 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(Bu3Intent);
             }
         });
-        Button Bu4 = (Button) findViewById(R.id.Bu4);
+        Button Bu4 = findViewById(R.id.Bu4);
         Bu4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -44,7 +44,7 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(Bu4Intent);
             }
         });
-        Button Bu5 = (Button) findViewById(R.id.Bu5);
+        Button Bu5 = findViewById(R.id.Bu5);
         Bu5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +52,7 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(Bu5Intent);
             }
         });
-        Button Bu6 = (Button) findViewById(R.id.Bu6);
+        Button Bu6 = findViewById(R.id.Bu6);
         Bu6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,7 +60,7 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(Bu6Intent);
             }
         });
-        Button Bu7 = (Button) findViewById(R.id.Bu7);
+        Button Bu7 = findViewById(R.id.Bu7);
         Bu7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,7 +68,7 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(Bu7Intent);
             }
         });
-        Button Bu8 = (Button) findViewById(R.id.Bu8);
+        Button Bu8 = findViewById(R.id.Bu8);
         Bu8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,7 +76,7 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(Bu8Intent);
             }
         });
-        Button Bu9 = (Button) findViewById(R.id.Bu9);
+        Button Bu9 = findViewById(R.id.Bu9);
         Bu9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -84,7 +84,7 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(Bu9Intent);
             }
         });
-        Button Bu10 = (Button) findViewById(R.id.Bu10);
+        Button Bu10 = findViewById(R.id.Bu10);
         Bu10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -93,24 +93,23 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        Button Bu11 = (Button) findViewById(R.id.Bu11);
+        Button Bu11 = findViewById(R.id.Bu11);
         Bu11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
             }
         });
-        Button Bu12 = (Button) findViewById(R.id.Bu12);
+        Button Bu12 = findViewById(R.id.Bu12);
         Bu12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent Bu12Intent = new Intent(MapActivity.this, time.class);
                 startActivity(Bu12Intent);
 
-
             }
         });
-        Button Bu13 = (Button) findViewById(R.id.Bu13);
+        Button Bu13 = findViewById(R.id.Bu13);
         Bu13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -119,8 +118,8 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        Button Bu14 = (Button) findViewById(R.id.Bu14);
-        Bu13.setOnClickListener(new View.OnClickListener() {
+        Button Bu14 = findViewById(R.id.Bu14);
+        Bu14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent Bu14Intent = new Intent(MapActivity.this, time.class);
@@ -128,7 +127,7 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        Button Bu15 = (Button) findViewById(R.id.Bu15);
+        Button Bu15 = findViewById(R.id.Bu15);
         Bu15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -137,7 +136,7 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-        Button Bu16 = (Button) findViewById(R.id.Bu16);
+        Button Bu16 = findViewById(R.id.Bu16);
         Bu16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -146,14 +145,6 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-
-    }
-
-    public void onClick(View view) {
-
-
-
-
 
     }
 }

@@ -14,19 +14,22 @@
         <activity android:name=".loading">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".slideractivity"> </activity>
-        <activity android:name=".time"> </activity>
-        <activity android:name=".MapActivity"> </activity>
-
+        <activity android:name=".slideractivity" />
+        <activity android:name=".time" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".FavoriteActivity"></activity>
     </application>
 
 </manifest>
