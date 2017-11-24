@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.content.Intent;
+import android.app.Activity;
 import android.os.Bundle;
 
 /**
@@ -22,9 +24,8 @@ public class adapter extends PagerAdapter {
     private LayoutInflater inflater;
     private Context context;
 
-    public adapter(Context context) {
-        this.context = context;
-
+    public  adapter(Context context){
+        this.context=context;
     }
 
     @Override
@@ -34,13 +35,13 @@ public class adapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return view == ((LinearLayout) object);
+        return view==((LinearLayout)object);
     }
 
     @Override
     public Object instantiateItem(ViewGroup container, int position){
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View v = inflater.inflate(R.layout.activity_slider_main, container, false);
+        View v = inflater.inflate(R.layout.activity_slider, container, false);
         ImageView imageView = (ImageView) v.findViewById(R.id.imageView);
         TextView textView = (TextView) v.findViewById(R.id.textView);
         imageView.setImageResource(images[position]);
