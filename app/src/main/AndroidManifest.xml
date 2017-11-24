@@ -25,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".slideractivity" />
+        <activity android:name=".slider_main" />
         <activity android:name=".time" />
         <activity android:name=".MapActivity" />
         <activity android:name=".ResultActivity" />
