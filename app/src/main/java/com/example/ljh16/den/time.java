@@ -1,19 +1,15 @@
 package com.example.ljh16.den;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
 
-/**
- * Created by ljh16 on 2017-11-11.
- */
-
-public class time extends Activity {
+public class time extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.time);
-        CheckBox Mon1 = (CheckBox) findViewById(R.id.Mon1);
+        CheckBox Mon1= (CheckBox) findViewById(R.id.Mon1);
         CheckBox Mon2 = (CheckBox) findViewById(R.id.Mon2);
         CheckBox Mon3 = (CheckBox) findViewById(R.id.Mon3);
         CheckBox Mon4 = (CheckBox) findViewById(R.id.Mon4);
