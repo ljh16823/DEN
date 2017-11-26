@@ -16,7 +16,7 @@ public class MapActivity extends AppCompatActivity {
         Bu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent BuIntent = new Intent(MapActivity.this, time.class);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(BuIntent);
             }
         });
@@ -24,7 +24,7 @@ public class MapActivity extends AppCompatActivity {
         Bu2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu2Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu2Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu2Intent);
             }
         });
@@ -32,7 +32,7 @@ public class MapActivity extends AppCompatActivity {
         Bu3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu3Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu3Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu3Intent);
             }
         });
@@ -40,7 +40,7 @@ public class MapActivity extends AppCompatActivity {
         Bu4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu4Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu4Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu4Intent);
             }
         });
@@ -48,7 +48,7 @@ public class MapActivity extends AppCompatActivity {
         Bu5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu5Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu5Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu5Intent);
             }
         });
@@ -56,7 +56,7 @@ public class MapActivity extends AppCompatActivity {
         Bu6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu6Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu6Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu6Intent);
             }
         });
@@ -64,7 +64,7 @@ public class MapActivity extends AppCompatActivity {
         Bu7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu7Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu7Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu7Intent);
             }
         });
@@ -72,7 +72,7 @@ public class MapActivity extends AppCompatActivity {
         Bu8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu8Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu8Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu8Intent);
             }
         });
@@ -80,7 +80,7 @@ public class MapActivity extends AppCompatActivity {
         Bu9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu9Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu9Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu9Intent);
             }
         });
@@ -88,8 +88,8 @@ public class MapActivity extends AppCompatActivity {
         Bu10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu11Intent = new Intent(MapActivity.this, time.class);
-                startActivity(Bu11Intent);
+                Intent Bu10Intent = new Intent(MapActivity.this, TtimeActivity.class);
+                startActivity(Bu10Intent);
 
             }
         });
@@ -97,14 +97,15 @@ public class MapActivity extends AppCompatActivity {
         Bu11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent Bu11Intent = new Intent(MapActivity.this, TtimeActivity.class);
+                startActivity(Bu11Intent);
             }
         });
         Button Bu12 = findViewById(R.id.Bu12);
         Bu12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu12Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu12Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu12Intent);
 
             }
@@ -113,7 +114,7 @@ public class MapActivity extends AppCompatActivity {
         Bu13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu13Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu13Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu13Intent);
 
             }
@@ -122,7 +123,7 @@ public class MapActivity extends AppCompatActivity {
         Bu14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu14Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu14Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu14Intent);
 
             }
@@ -131,7 +132,7 @@ public class MapActivity extends AppCompatActivity {
         Bu15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu15Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu15Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu15Intent);
 
             }
@@ -140,7 +141,7 @@ public class MapActivity extends AppCompatActivity {
         Bu16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu16Intent = new Intent(MapActivity.this, time.class);
+                Intent Bu16Intent = new Intent(MapActivity.this, TtimeActivity.class);
                 startActivity(Bu16Intent);
 
             }

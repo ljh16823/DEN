@@ -4,12 +4,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
 
-public class time extends AppCompatActivity {
+public class TtimeActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.time);
-        CheckBox Mon1= (CheckBox) findViewById(R.id.Mon1);
+        setContentView(R.layout.activity_ttime);
+        CheckBox Mon1 = (CheckBox) findViewById(R.id.Mon1);
         CheckBox Mon2 = (CheckBox) findViewById(R.id.Mon2);
         CheckBox Mon3 = (CheckBox) findViewById(R.id.Mon3);
         CheckBox Mon4 = (CheckBox) findViewById(R.id.Mon4);
