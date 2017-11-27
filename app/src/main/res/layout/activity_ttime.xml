@@ -6,412 +6,499 @@
     android:background="@drawable/pyo">
 
 
+
     <CheckBox
         android:id="@+id/Mon1"
-        android:button="@drawable/Seel"
+        android:button="@drawable/seel"
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:checked="true"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="52dp" />
+
     <CheckBox
         android:id="@+id/Mon2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="103dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="103dp" />
+
     <CheckBox
         android:id="@+id/Mon3"
         android:layout_width="62dp"
         android:layout_height="50dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="154dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="154dp" />
+
     <CheckBox
         android:id="@+id/Mon4"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="206dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="206dp" />
+
     <CheckBox
         android:id="@+id/Mon5"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="257dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="257dp" />
+
     <CheckBox
         android:id="@+id/Mon6"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="308dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="308dp" />
+
     <CheckBox
         android:id="@+id/Mon7"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="359dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="359dp" />
+
     <CheckBox
         android:id="@+id/Mon8"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="410dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="410dp" />
+
     <CheckBox
         android:id="@+id/Mon9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="461dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="461dp" />
 
     <CheckBox
         android:id="@+id/Tues1"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@android:color/transparent"
+        android:button="@drawable/seel"
         android:checked="true"
         android:drawable="@drawable/selector_checkbox"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
         tools:layout_editor_absoluteY="52dp" />
+
     <CheckBox
         android:id="@+id/Tues2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="103dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="103dp" />
+
     <CheckBox
         android:id="@+id/Tues3"
         android:layout_width="62dp"
         android:layout_height="50dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="154dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="154dp" />
+
     <CheckBox
         android:id="@+id/Tues4"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="206dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="206dp" />
+
     <CheckBox
         android:id="@+id/Tues5"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="257dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="257dp" />
+
     <CheckBox
         android:id="@+id/Tues6"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="308dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="308dp" />
+
     <CheckBox
         android:id="@+id/Tues7"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="359dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="359dp" />
+
     <CheckBox
         android:id="@+id/Tues8"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="410dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="410dp" />
+
     <CheckBox
         android:id="@+id/Tues9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="461dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="461dp" />
+
     <CheckBox
         android:id="@+id/Wednes1"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="52dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="52dp" />
+
     <CheckBox
         android:id="@+id/Wednes2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="103dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="103dp" />
+
     <CheckBox
         android:id="@+id/Wednes3"
         android:layout_width="62dp"
         android:layout_height="50dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="154dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="154dp" />
+
     <CheckBox
         android:id="@+id/Wednes4"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="206dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="206dp" />
+
     <CheckBox
         android:id="@+id/Wednes5"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="257dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="257dp" />
+
     <CheckBox
         android:id="@+id/Wednes6"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="308dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="308dp" />
+
     <CheckBox
         android:id="@+id/Wednes7"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="359dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="359dp" />
+
     <CheckBox
         android:id="@+id/Wednes8"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="410dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="410dp" />
+
     <CheckBox
         android:id="@+id/Wednes9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="461dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="461dp" />
+
     <CheckBox
         android:id="@+id/Thurs1"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="52dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="52dp" />
+
     <CheckBox
         android:id="@+id/Thurs2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="103dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="103dp" />
+
     <CheckBox
         android:id="@+id/Thurs3"
         android:layout_width="62dp"
         android:layout_height="50dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="154dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="154dp" />
+
     <CheckBox
         android:id="@+id/Thurs4"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="206dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="206dp" />
+
     <CheckBox
         android:id="@+id/Thurs5"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="257dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="257dp" />
+
     <CheckBox
         android:id="@+id/Thurs6"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="308dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="308dp" />
+
     <CheckBox
         android:id="@+id/Thurs7"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="359dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="359dp" />
+
     <CheckBox
         android:id="@+id/Thurs8"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="410dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="410dp" />
+
     <CheckBox
         android:id="@+id/Thurs9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="461dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="461dp" />
+
     <CheckBox
         android:id="@+id/Fri1"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="52dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="52dp" />
+
     <CheckBox
         android:id="@+id/Fri2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="103dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="103dp" />
+
     <CheckBox
         android:id="@+id/Fri3"
         android:layout_width="62dp"
         android:layout_height="50dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="154dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="154dp" />
+
     <CheckBox
         android:id="@+id/Fri4"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="206dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="206dp" />
+
     <CheckBox
         android:id="@+id/Fri5"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="257dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="257dp" />
+
     <CheckBox
         android:id="@+id/Fri6"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="308dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="308dp" />
+
     <CheckBox
         android:id="@+id/Fri7"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="359dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="359dp" />
+
     <CheckBox
         android:id="@+id/Fri8"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="410dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="410dp" />
+
     <CheckBox
         android:id="@+id/Fri9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@drawable/seel"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="321dp"
-        tools:layout_editor_absoluteY="461dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="461dp" />
 
 </android.support.constraint.ConstraintLayout>
