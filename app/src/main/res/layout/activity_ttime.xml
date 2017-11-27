@@ -2,19 +2,19 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/pyo">
 
+
     <CheckBox
         android:id="@+id/Mon1"
+        android:button="@drawable/Seel"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:checked="true"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="52dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="52dp" />
     <CheckBox
         android:id="@+id/Mon2"
         android:layout_width="62dp"
@@ -87,15 +87,17 @@
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="461dp"
         tools:ignore="MissingConstraints" />
+
     <CheckBox
         android:id="@+id/Tues1"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:button="@drawable/white"
-        android:checked="true" android:drawable="@drawable/selector_checkbox"
+        android:button="@android:color/transparent"
+        android:checked="true"
+        android:drawable="@drawable/selector_checkbox"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="52dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="52dp" />
     <CheckBox
         android:id="@+id/Tues2"
         android:layout_width="62dp"
