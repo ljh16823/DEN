@@ -21,29 +21,28 @@ import android.os.Bundle;
 public class adapter extends PagerAdapter {
 
 
-    private int[] images = {R.drawable.building2,R.drawable.building3,R.drawable.building4,R.drawable.building9,R.drawable.building10,R.drawable.building12,R.drawable.building13,R.drawable.building19,R.drawable.building20,R.drawable.building24,R.drawable.building27,R.drawable.building29,R.drawable.building31,R.drawable.building32};
+    private int[] images = {R.drawable.building2, R.drawable.building3, R.drawable.building4, R.drawable.building9, R.drawable.building10, R.drawable.building12, R.drawable.building13, R.drawable.building19, R.drawable.building20, R.drawable.building24, R.drawable.building27, R.drawable.building29, R.drawable.building31, R.drawable.building32};
     private LayoutInflater inflater;
     private Context context;
 
-    public  adapter(Context context){
-        this.context=context;
+    public adapter(Context context) {
+        this.context = context;
 
     }
 
     @Override
     public int getCount() {
-        return images.length*5;
+        return Integer.MAX_VALUE;
     }
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return view==((LinearLayout)object);
+        return view == ((LinearLayout) object);
     }
 
     @Override
-    public Object instantiateItem(ViewGroup container, int position){
+    public Object instantiateItem(ViewGroup container, int position) {
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
         int realPos = position % (14);
         View v = inflater.inflate(R.layout.slider, container, false);
         ImageView imageView = (ImageView) v.findViewById(R.id.imageView);
@@ -53,9 +52,9 @@ public class adapter extends PagerAdapter {
         container.addView(v);
         return v;
     }
+
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
         container.invalidate();
     }
-
 }

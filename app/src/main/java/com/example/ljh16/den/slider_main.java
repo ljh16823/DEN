@@ -16,6 +16,8 @@ public class slider_main extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.view);
         adapter = new adapter(this);
         viewPager.setAdapter(adapter);
+        viewPager.setCurrentItem(1400);
+
 
     }
 }
