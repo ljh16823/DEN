@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="@drawable/pyo">
 
 
@@ -11,14 +11,10 @@
         android:id="@+id/Mon1"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
         android:layout_marginTop="52dp"
         android:button="@drawable/seel"
         android:checked="false"
-        app:layout_constraintBottom_toTopOf="@+id/Mon2"
-        app:layout_constraintEnd_toStartOf="@+id/Tues1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -27,15 +23,11 @@
         android:id="@+id/Mon2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="54dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
         android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
-        app:layout_constraintBottom_toTopOf="@+id/Mon3"
-        app:layout_constraintEnd_toStartOf="@+id/Tues2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Mon1"
         tools:ignore="MissingConstraints" />
@@ -44,103 +36,92 @@
         android:id="@+id/Mon3"
         android:layout_width="62dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
-        app:layout_constraintBottom_toTopOf="@+id/Mon4"
-        app:layout_constraintEnd_toStartOf="@+id/Tues3"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mon2"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Mon4"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
-        app:layout_constraintBottom_toTopOf="@+id/Mon5"
-        app:layout_constraintEnd_toStartOf="@+id/Tues4"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mon3"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Mon5"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
-        app:layout_constraintBottom_toTopOf="@+id/Mon6"
-        app:layout_constraintEnd_toStartOf="@+id/Tues5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mon4"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Mon6"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
-        app:layout_constraintBottom_toTopOf="@+id/Mon7"
-        app:layout_constraintEnd_toStartOf="@+id/Tues6"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mon5"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Mon7"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
-        app:layout_constraintBottom_toTopOf="@+id/Mon8"
-        app:layout_constraintEnd_toStartOf="@+id/Tues7"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mon6"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Mon8"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
-        app:layout_constraintBottom_toTopOf="@+id/Mon9"
-        app:layout_constraintEnd_toStartOf="@+id/Tues8"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mon7"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Mon9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="1dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mon8"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -148,14 +129,11 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginStart="2dp"
         android:layout_marginTop="52dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Tues2"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes1"
         app:layout_constraintStart_toEndOf="@+id/Mon1"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -164,17 +142,12 @@
         android:id="@+id/Tues2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="54dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Tues3"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes2"
         app:layout_constraintStart_toEndOf="@+id/Mon2"
-        app:layout_constraintTop_toBottomOf="@+id/Tues1"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -182,13 +155,10 @@
         android:layout_width="62dp"
         android:layout_height="50dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Tues4"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes3"
         app:layout_constraintStart_toEndOf="@+id/Mon3"
         tools:ignore="MissingConstraints" />
 
@@ -197,13 +167,10 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Tues5"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes4"
         app:layout_constraintStart_toEndOf="@+id/Mon4"
         tools:ignore="MissingConstraints" />
 
@@ -212,13 +179,10 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Tues6"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes5"
         app:layout_constraintStart_toEndOf="@+id/Mon5"
         tools:ignore="MissingConstraints" />
 
@@ -227,13 +191,10 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Tues7"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes6"
         app:layout_constraintStart_toEndOf="@+id/Mon6"
         tools:ignore="MissingConstraints" />
 
@@ -242,12 +203,11 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Tues8"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes7"
+        app:layout_constraintStart_toEndOf="@+id/Mon7"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -255,26 +215,21 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Tues9"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes8"
+        app:layout_constraintStart_toEndOf="@+id/Mon8"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Tues9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="1dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Wednes9"
         app:layout_constraintStart_toEndOf="@+id/Mon9"
         tools:ignore="MissingConstraints" />
 
@@ -283,13 +238,13 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:layout_marginTop="52dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Wednes2"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs1"
+        app:layout_constraintStart_toEndOf="@+id/Tues1"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -297,17 +252,13 @@
         android:id="@+id/Wednes2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="54dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Wednes3"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs2"
         app:layout_constraintStart_toEndOf="@+id/Tues2"
-        app:layout_constraintTop_toBottomOf="@+id/Wednes1"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -315,12 +266,12 @@
         android:layout_width="62dp"
         android:layout_height="50dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Wednes4"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs3"
+        app:layout_constraintStart_toEndOf="@+id/Tues3"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -328,12 +279,12 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Wednes5"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs4"
+        app:layout_constraintStart_toEndOf="@+id/Tues4"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -341,12 +292,12 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Wednes6"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs5"
+        app:layout_constraintStart_toEndOf="@+id/Tues5"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -354,12 +305,12 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Wednes7"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs6"
+        app:layout_constraintStart_toEndOf="@+id/Tues6"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -367,12 +318,12 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Wednes8"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs7"
+        app:layout_constraintStart_toEndOf="@+id/Tues7"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -380,26 +331,23 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Wednes9"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs8"
+        app:layout_constraintStart_toEndOf="@+id/Tues8"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Wednes9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="1dp"
-        android:layout_marginEnd="2dp"
         android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Thurs9"
         app:layout_constraintStart_toEndOf="@+id/Tues9"
         tools:ignore="MissingConstraints" />
 
@@ -408,13 +356,13 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:layout_marginTop="52dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Thurs2"
-        app:layout_constraintEnd_toStartOf="@+id/Fri1"
+        app:layout_constraintStart_toEndOf="@+id/Wednes1"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -423,14 +371,12 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="54dp"
-        android:layout_marginEnd="2dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Thurs3"
-        app:layout_constraintEnd_toStartOf="@+id/Fri2"
         app:layout_constraintStart_toEndOf="@+id/Wednes2"
         app:layout_constraintTop_toBottomOf="@+id/Thurs1"
         tools:ignore="MissingConstraints" />
@@ -440,12 +386,12 @@
         android:layout_width="62dp"
         android:layout_height="50dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Thurs4"
-        app:layout_constraintEnd_toStartOf="@+id/Fri3"
+        app:layout_constraintStart_toEndOf="@+id/Wednes3"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -453,11 +399,11 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Thurs5"
-        app:layout_constraintEnd_toStartOf="@+id/Fri4"
+        app:layout_constraintStart_toEndOf="@+id/Wednes4"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -465,12 +411,12 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Thurs6"
-        app:layout_constraintEnd_toStartOf="@+id/Fri5"
+        app:layout_constraintStart_toEndOf="@+id/Wednes5"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -478,12 +424,12 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Thurs7"
-        app:layout_constraintEnd_toStartOf="@+id/Fri6"
+        app:layout_constraintStart_toEndOf="@+id/Wednes6"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -491,12 +437,12 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Thurs8"
-        app:layout_constraintEnd_toStartOf="@+id/Fri7"
+        app:layout_constraintStart_toEndOf="@+id/Wednes7"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -504,26 +450,23 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Thurs9"
-        app:layout_constraintEnd_toStartOf="@+id/Fri8"
+        app:layout_constraintStart_toEndOf="@+id/Wednes8"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/Thurs9"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="1dp"
-        android:layout_marginEnd="2dp"
         android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Fri9"
         app:layout_constraintStart_toEndOf="@+id/Wednes9"
         tools:ignore="MissingConstraints" />
 
@@ -532,13 +475,14 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="2dp"
         android:layout_marginTop="52dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Fri2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Thurs1"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -546,8 +490,7 @@
         android:id="@+id/Fri2"
         android:layout_width="62dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="54dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
         android:button="@drawable/seel"
@@ -564,12 +507,13 @@
         android:layout_width="62dp"
         android:layout_height="50dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Fri4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Thurs3"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -577,12 +521,13 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Fri5"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Thurs4"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -590,12 +535,13 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Fri6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Thurs5"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -603,12 +549,13 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Fri7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Thurs6"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -616,12 +563,13 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Fri8"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Thurs7"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -629,12 +577,13 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
         android:drawable="@drawable/selector_checkbox"
         app:layout_constraintBottom_toTopOf="@+id/Fri9"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Thurs8"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -642,7 +591,6 @@
         android:layout_width="62dp"
         android:layout_height="49dp"
         android:layout_marginBottom="1dp"
-        android:layout_marginEnd="1dp"
         android:layout_marginStart="2dp"
         android:button="@drawable/seel"
         android:checked="false"
