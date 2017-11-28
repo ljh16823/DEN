@@ -1,3 +1,4 @@
+
 package com.example.ljh16.den;
 
 import android.content.Context;
@@ -26,11 +27,12 @@ public class adapter extends PagerAdapter {
 
     public  adapter(Context context){
         this.context=context;
+
     }
 
     @Override
     public int getCount() {
-        return images.length;
+        return images.length*5;
     }
 
     @Override
@@ -41,11 +43,13 @@ public class adapter extends PagerAdapter {
     @Override
     public Object instantiateItem(ViewGroup container, int position){
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        int realPos = position % (14);
         View v = inflater.inflate(R.layout.slider, container, false);
         ImageView imageView = (ImageView) v.findViewById(R.id.imageView);
         TextView textView = (TextView) v.findViewById(R.id.textView);
-        imageView.setImageResource(images[position]);
-        textView.setText((position + 1) + "번째 이미지입니다.");
+        imageView.setImageResource(images[realPos]);
+        textView.setText((realPos + 1) + "번째 이미지입니다.");
         container.addView(v);
         return v;
     }
