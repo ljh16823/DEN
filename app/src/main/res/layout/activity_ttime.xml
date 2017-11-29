@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,10 +11,10 @@
 
     <CheckBox
         android:id="@+id/Mon1"
-        android:layout_width="60dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="61dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="60dip"
+        android:layout_height="48dip"
+        android:layout_marginStart="61dip"
+        android:layout_marginTop="52dip"
         android:background="@drawable/seel"
         android:button="@null"
         android:checked="false"
@@ -23,10 +24,10 @@
 
     <CheckBox
         android:id="@+id/Mon2"
-        android:layout_width="60dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="61dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="60dip"
+        android:layout_height="47dip"
+        android:layout_marginStart="61dip"
+        android:layout_marginTop="3dip"
         android:background="@drawable/seel"
         android:button="@null"
         android:checked="false"

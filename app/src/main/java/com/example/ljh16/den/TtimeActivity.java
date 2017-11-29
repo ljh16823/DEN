@@ -2,7 +2,10 @@ package com.example.ljh16.den;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 public class TtimeActivity extends AppCompatActivity {
 
@@ -55,5 +58,23 @@ public class TtimeActivity extends AppCompatActivity {
         CheckBox cbFri7 = (CheckBox) findViewById(R.id.Fri7);
         CheckBox cbFri8 = (CheckBox) findViewById(R.id.Fri8);
         CheckBox cbFri9 = (CheckBox) findViewById(R.id.Fri9);
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.next, menu);
+        return  true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        if( id == R.id.newPost ){
+            Toast.makeText(TtimeActivity.this, "새 글 `등록 버튼을 클릭했습니다.", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
