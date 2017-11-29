@@ -48,7 +48,65 @@ public class adapter extends PagerAdapter {
         ImageView imageView = (ImageView) v.findViewById(R.id.imageView);
         TextView textView = (TextView) v.findViewById(R.id.textView);
         imageView.setImageResource(images[realPos]);
-        textView.setText((realPos + 1) + "번째 이미지입니다.");
+        switch (realPos+1){
+            case 1 :
+                textView.setText("기초과학관");
+                textView.setTextColor(0xAA00723f);
+                 break;
+            case 2 :
+                textView.setText("공학관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 3 :
+                textView.setText("응용과학관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 4 :
+                textView.setText("창의학습관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 5 :
+                textView.setText("창학관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 6 :
+                textView.setText("맥센터");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 7 :
+                textView.setText("렉처홀");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 8 :
+                textView.setText("30주년 기념관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 9 :
+                textView.setText("헤화문화관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 10 :
+                textView.setText("인문사회관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 11 :
+                textView.setText("문무관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 12 :
+                textView.setText("한의학관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 13 :
+                textView.setText("산학협력관");
+                textView.setTextColor(0xAA00723f);
+                break;
+            case 14 :
+                textView.setText("융합과학관");
+                textView.setTextColor(0xAA00723f);
+                break;
+        }
+
         container.addView(v);
         return v;
     }
