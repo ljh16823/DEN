@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.content.Intent;
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 /**
  * Created by pshbo on 2017-11-11.
@@ -38,6 +39,7 @@ public class adapter extends PagerAdapter {
     @Override
     public boolean isViewFromObject(View view, Object object) {
         return view == ((LinearLayout) object);
+
     }
 
     @Override
@@ -51,68 +53,68 @@ public class adapter extends PagerAdapter {
         switch (realPos+1){
             case 1 :
                 textView.setText("기초과학관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                  break;
             case 2 :
                 textView.setText("공학관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 3 :
                 textView.setText("응용과학관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 4 :
                 textView.setText("창의학습관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 5 :
                 textView.setText("창학관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 6 :
                 textView.setText("맥센터");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 7 :
                 textView.setText("렉처홀");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 8 :
                 textView.setText("30주년 기념관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 9 :
-                textView.setText("헤화문화관");
-                textView.setTextColor(0xAA00723f);
+                textView.setText("혜화문화관");
+                textView.setTextColor(0xFF00723f);
                 break;
             case 10 :
                 textView.setText("인문사회관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 11 :
                 textView.setText("문무관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 12 :
                 textView.setText("한의학관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 13 :
                 textView.setText("산학협력관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
             case 14 :
                 textView.setText("융합과학관");
-                textView.setTextColor(0xAA00723f);
+                textView.setTextColor(0xFF00723f);
                 break;
         }
 
         container.addView(v);
         return v;
     }
-
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
         container.invalidate();
     }
+
 }
