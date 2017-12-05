@@ -8,7 +8,7 @@
     android:background="@drawable/tour_map05">
 
     <Button
-        android:id="@+id/Bu"
+        android:id="@+id/기초과학관"
         android:layout_width="37dp"
         android:layout_height="29dp"
         android:layout_marginStart="32dp"
@@ -20,7 +20,7 @@
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu2"
+        android:id="@+id/공학관"
         android:layout_width="30dp"
         android:layout_height="0dp"
         android:layout_marginBottom="255dp"
@@ -28,42 +28,43 @@
         android:background="#00000000"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Bu3"
+        app:layout_constraintEnd_toStartOf="@+id/응용과학관"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Bu4"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu3"
-        android:layout_width="23dp"
-        android:layout_height="51dp"
+        android:id="@+id/응용과학관"
+        android:layout_width="18dp"
+        android:layout_height="33dp"
         android:layout_marginBottom="44dp"
         android:layout_marginEnd="1dp"
         android:layout_marginTop="192dp"
         android:background="#00000000"
         android:onClick="onClick"
-        app:layout_constraintBottom_toTopOf="@+id/Bu6"
-        app:layout_constraintEnd_toStartOf="@+id/Bu5"
-        app:layout_constraintStart_toEndOf="@+id/Bu2"
+        app:layout_constraintBottom_toTopOf="@+id/창의학습관"
+        app:layout_constraintEnd_toStartOf="@+id/학생회관"
+        app:layout_constraintStart_toEndOf="@+id/공학관"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu4"
+        android:id="@+id/공학실험관"
         android:layout_width="14dp"
         android:layout_height="19dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="192dp"
         android:background="#00000000"
         android:onClick="onClick"
-        app:layout_constraintBottom_toTopOf="@+id/Bu2"
-        app:layout_constraintEnd_toStartOf="@+id/Bu3"
+        app:layout_constraintBottom_toTopOf="@+id/공학관"
+        app:layout_constraintEnd_toStartOf="@+id/응용과학관"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bu"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu5"
+        android:id="@+id/학생회관"
         android:layout_width="24dp"
         android:layout_height="50dp"
         android:layout_marginBottom="256dp"
@@ -72,13 +73,13 @@
         android:background="#00000000"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Bu7"
-        app:layout_constraintStart_toEndOf="@+id/Bu3"
+        app:layout_constraintEnd_toStartOf="@+id/창학관"
+        app:layout_constraintStart_toEndOf="@+id/응용과학관"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu6"
+        android:id="@+id/창의학습관"
         android:layout_width="24dp"
         android:layout_height="39dp"
         android:layout_marginBottom="185dp"
@@ -88,28 +89,27 @@
         android:background="#00000000"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Bu9"
+        app:layout_constraintEnd_toStartOf="@+id/렉처홀"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bu5"
+        app:layout_constraintTop_toBottomOf="@+id/학생회관"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu7"
-        android:layout_width="40dp"
-        android:layout_height="63dp"
-        android:layout_marginBottom="21dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="224dp"
+        android:id="@+id/창학관"
+        android:layout_width="37dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="8dp"
         android:background="#00000000"
         android:onClick="onClick"
-        app:layout_constraintBottom_toTopOf="@+id/Bu9"
-        app:layout_constraintEnd_toStartOf="@+id/Bu10"
-        app:layout_constraintStart_toEndOf="@+id/Bu5"
+        app:layout_constraintBottom_toTopOf="@+id/렉처홀"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints,OnClick" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="129dp" />
 
     <Button
-        android:id="@+id/Bu8"
+        android:id="@+id/MACC센터"
         android:layout_width="37dp"
         android:layout_height="56dp"
         android:layout_marginBottom="112dp"
@@ -121,11 +121,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bu9"
+        app:layout_constraintTop_toBottomOf="@+id/렉처홀"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu9"
+        android:id="@+id/렉처홀"
         android:layout_width="37dp"
         android:layout_height="32dp"
         android:layout_marginBottom="3dp"
@@ -133,13 +133,13 @@
         android:layout_marginTop="1dp"
         android:background="#00000000"
         android:onClick="onClick"
-        app:layout_constraintBottom_toTopOf="@+id/Bu8"
+        app:layout_constraintBottom_toTopOf="@+id/MACC센터"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bu10"
+        app:layout_constraintTop_toBottomOf="@+id/지산도서관"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu10"
+        android:id="@+id/지산도서관"
         android:layout_width="55dp"
         android:layout_height="66dp"
         android:layout_marginBottom="204dp"
@@ -149,13 +149,13 @@
         android:background="#00000000"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Bu12"
-        app:layout_constraintStart_toEndOf="@+id/Bu7"
-        app:layout_constraintTop_toBottomOf="@+id/Bu11"
+        app:layout_constraintEnd_toStartOf="@+id/혜화문화관"
+        app:layout_constraintStart_toEndOf="@+id/창학관"
+        app:layout_constraintTop_toBottomOf="@+id/30주년 기념관"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu11"
+        android:id="@+id/30주년기념관"
         android:layout_width="47dp"
         android:layout_height="57dp"
         android:layout_marginBottom="5dp"
@@ -164,14 +164,14 @@
         android:layout_marginTop="1dp"
         android:background="#00000000"
         android:onClick="onClick"
-        app:layout_constraintBottom_toTopOf="@+id/Bu10"
+        app:layout_constraintBottom_toTopOf="@+id/지산도서관"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Bu7"
-        app:layout_constraintTop_toBottomOf="@+id/Bu15"
+        app:layout_constraintStart_toEndOf="@+id/창학관"
+        app:layout_constraintTop_toBottomOf="@+id/한의학관"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu12"
+        android:id="@+id/혜화문화관"
         android:layout_width="27dp"
         android:layout_height="59dp"
         android:layout_marginBottom="226dp"
@@ -182,12 +182,12 @@
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Bu11"
-        app:layout_constraintTop_toBottomOf="@+id/Bu13"
+        app:layout_constraintStart_toEndOf="@+id/30주년 기념관"
+        app:layout_constraintTop_toBottomOf="@+id/인문사회관"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu13"
+        android:id="@+id/인문사회관"
         android:layout_width="28dp"
         android:layout_height="54dp"
         android:layout_marginBottom="3dp"
@@ -196,14 +196,14 @@
         android:layout_marginTop="48dp"
         android:background="#00000000"
         android:onClick="onClick"
-        app:layout_constraintBottom_toTopOf="@+id/Bu12"
+        app:layout_constraintBottom_toTopOf="@+id/혜화문화관"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Bu11"
-        app:layout_constraintTop_toBottomOf="@+id/Bu14"
+        app:layout_constraintStart_toEndOf="@+id/30주년 기념관"
+        app:layout_constraintTop_toBottomOf="@+id/문무관"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu14"
+        android:id="@+id/문무관"
         android:layout_width="29dp"
         android:layout_height="37dp"
         android:layout_marginEnd="105dp"
@@ -212,12 +212,12 @@
         android:background="#00000000"
         android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Bu15"
+        app:layout_constraintStart_toEndOf="@+id/한의학관"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,OnClick" />
 
     <Button
-        android:id="@+id/Bu15"
+        android:id="@+id/한의학관"
         android:layout_width="24dp"
         android:layout_height="61dp"
         android:layout_marginBottom="1dp"
@@ -226,15 +226,15 @@
         android:layout_marginTop="31dp"
         android:background="#00000000"
         android:onClick="onClick"
-        app:layout_constraintBottom_toTopOf="@+id/Bu11"
+        app:layout_constraintBottom_toTopOf="@+id/30주년 기념관"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Bu"
-        app:layout_constraintTop_toBottomOf="@+id/Bu16"
+        app:layout_constraintTop_toBottomOf="@+id/산학협력관"
         tools:ignore="MissingConstraints,OnClick" />
 
 
     <Button
-        android:id="@+id/Bu16"
+        android:id="@+id/산학협력관"
         android:layout_width="25dp"
         android:layout_height="34dp"
         android:layout_marginEnd="26dp"
@@ -242,7 +242,7 @@
         android:layout_marginTop="52dp"
         android:background="#00000000"
         android:onClick="onClick"
-        app:layout_constraintEnd_toStartOf="@+id/Bu14"
+        app:layout_constraintEnd_toStartOf="@+id/문무관"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
