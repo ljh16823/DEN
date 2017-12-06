@@ -17,6 +17,7 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","기초과학관");
                 startActivity(BuIntent);
             }
         });
@@ -24,89 +25,98 @@ public class MapActivity extends AppCompatActivity {
         Bu2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu2Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu2Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","공학관");
+                startActivity(BuIntent);
             }
         });
         Button Bu3 = findViewById(R.id.응용과학관);
         Bu3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu3Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu3Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","응용과학관");
+                startActivity(BuIntent);
             }
         });
         Button Bu4 = findViewById(R.id.공학실험관);
-        Bu4.setOnClickListener(new View.OnClickListener() {
+        Bu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu4Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu4Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","공학실험관");
+                startActivity(BuIntent);
             }
         });
         Button Bu5 = findViewById(R.id.학생회관);
         Bu5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu5Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu5Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                startActivity(BuIntent);
             }
         });
         Button Bu6 = findViewById(R.id.창의학습관);
         Bu6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu6Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu6Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","창의학습관");
+                startActivity(BuIntent);
             }
         });
         Button Bu7 = findViewById(R.id.창학관);
         Bu7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu7Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu7Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","창학관");
+                startActivity(BuIntent);
             }
         });
         Button Bu8 = findViewById(R.id.MACC센터);
         Bu8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu8Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu8Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","MACC센터");
+                startActivity(BuIntent);
             }
         });
         Button Bu9 = findViewById(R.id.렉처홀);
         Bu9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu9Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu9Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","렉처홀");
+                startActivity(BuIntent);
             }
         });
         Button Bu10 = findViewById(R.id.지산도서관);
         Bu10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu10Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu10Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                startActivity(BuIntent);
 
             }
         });
-        Button Bu11 = findViewById(R.id.Bu11);
+        Button Bu11 = findViewById(R.id.기념관);
         Bu11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu11Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu11Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","기념관");
+                startActivity(BuIntent);
             }
         });
         Button Bu12 = findViewById(R.id.혜화문화관);
         Bu12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu12Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu12Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","혜화문화관");
+                startActivity(BuIntent);
 
             }
         });
@@ -114,8 +124,9 @@ public class MapActivity extends AppCompatActivity {
         Bu13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu13Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu13Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","인문사회관");
+                startActivity(BuIntent);
 
             }
         });
@@ -123,8 +134,9 @@ public class MapActivity extends AppCompatActivity {
         Bu14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu14Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu14Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","문무관");
+                startActivity(BuIntent);
 
             }
         });
@@ -132,8 +144,9 @@ public class MapActivity extends AppCompatActivity {
         Bu15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu15Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu15Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","한의학관");
+                startActivity(BuIntent);
 
             }
         });
@@ -141,8 +154,9 @@ public class MapActivity extends AppCompatActivity {
         Bu16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Bu16Intent = new Intent(MapActivity.this, TtimeActivity.class);
-                startActivity(Bu16Intent);
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                BuIntent.putExtra("ID","산학협력관");
+                startActivity(BuIntent);
 
             }
         });
