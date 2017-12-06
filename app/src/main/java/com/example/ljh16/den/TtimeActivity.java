@@ -360,14 +360,8 @@ public class TtimeActivity extends AppCompatActivity {
     }
 
 
-    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.next, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
         Intent BuIntent = getIntent();
         myId = BuIntent.getExtras().getString("ID");
         String buildiing1 = myId;
@@ -375,6 +369,18 @@ public class TtimeActivity extends AppCompatActivity {
 
         InsertData task = new InsertData();
         task.execute(buildiing1, times1);
+        return true;
+    }
+
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.newPost) {
+            Toast.makeText(TtimeActivity.this, "새 글 `등록 버튼을 클릭했습니다.", Toast.LENGTH_SHORT).show();
+            Intent NextBu = new Intent(TtimeActivity.this, ResultActivity.class);
+            TtimeActivity.this.startActivity(NextBu);
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -448,7 +454,6 @@ public class TtimeActivity extends AppCompatActivity {
             } catch (Exception e) {
 
                 Log.d(TAG, "InsertData: Error ", e);
-
                 return new String("Error: " + e.getMessage());
             }
         }

@@ -80,7 +80,7 @@ public class adapter extends PagerAdapter {
                 textView.setTextColor(0xFF00723f);
                 break;
             case 8 :
-                textView.setText("30주년 기념관");
+                textView.setText("기념관");
                 textView.setTextColor(0xFF00723f);
                 break;
             case 9 :
