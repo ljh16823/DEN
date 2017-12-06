@@ -35,7 +35,7 @@ import java.net.URL;
 
 public class TtimeActivity extends AppCompatActivity {
     private static String TAG = "TtimeActivity";
-    String myId, myTime;
+    String myTime;
 
 
     @Override
@@ -363,8 +363,7 @@ public class TtimeActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.next, menu);
         Intent BuIntent = getIntent();
-        myId = BuIntent.getExtras().getString("ID");
-        String buildiing1 = myId;
+        String buildiing1 = BuIntent.getStringExtra("ID");
         String times1 = myTime;
 
         InsertData task = new InsertData();
@@ -384,6 +383,7 @@ public class TtimeActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @SuppressLint("StaticFieldLeak")
     class InsertData extends AsyncTask<String, Void, String> {
         ProgressDialog progressDialog;
 
