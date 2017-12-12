@@ -33,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(imageBu2Intent);
             }
         });
+        imageButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent imageBu3Intent = new Intent(MainActivity.this, Result2Activity.class);
+                startActivity(imageBu3Intent);
+            }
+        });
+
 
     }
 }

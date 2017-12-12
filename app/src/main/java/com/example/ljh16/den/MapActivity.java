@@ -1,6 +1,7 @@
 package com.example.ljh16.den;
 
 import android.content.Intent;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,8 +18,8 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
-                String myID = Bu.getText().toString();
-                BuIntent.putExtra("", myID);
+                String myID = "기초과학관";
+                BuIntent.putExtra("String", myID);
                 startActivity(BuIntent);
             }
         });
@@ -27,8 +28,8 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
-                String myID = Bu2.getText().toString();
-                BuIntent.putExtra("", myID);
+                String myID = "공학관";
+                BuIntent.putExtra("String", myID);
                 startActivity(BuIntent);
             }
         });
@@ -37,8 +38,8 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
-                String myID = Bu3.getText().toString();
-                BuIntent.putExtra("", myID);
+                String myID = "응용과학관";
+                BuIntent.putExtra("String", myID);
                 startActivity(BuIntent);
             }
         });
@@ -47,8 +48,8 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
-                String myID = Bu4.getText().toString();
-                BuIntent.putExtra("", myID);
+                String myID = "기초과학관";
+                BuIntent.putExtra("String", myID);
                 startActivity(BuIntent);
             }
         });
@@ -57,8 +58,8 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
-                String myID = Bu5.getText().toString();
-                BuIntent.putExtra("", myID);
+                String myID = "학생회관";
+                BuIntent.putExtra("String", myID);
                 startActivity(BuIntent);
             }
         });
@@ -67,8 +68,8 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
-                String myID = Bu6.getText().toString();
-                BuIntent.putExtra("", myID);
+                String myID = "창의학습관";
+                BuIntent.putExtra("String", myID);
                 startActivity(BuIntent);
             }
         });
@@ -77,8 +78,8 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
-                String myID = Bu7.getText().toString();
-                BuIntent.putExtra("", myID);
+                String myID = "창학관";
+                BuIntent.putExtra("String", myID);
                 startActivity(BuIntent);
             }
         });
@@ -87,8 +88,8 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
-                String myID = Bu8.getText().toString();
-                BuIntent.putExtra("", myID);
+                String myID = "MACC센터";
+                BuIntent.putExtra("String", myID);
                 startActivity(BuIntent);
             }
         });
@@ -178,6 +179,15 @@ public class MapActivity extends AppCompatActivity {
 
             }
         });
-
+        final Button Bu17 = findViewById(R.id.융합과학관);
+        Bu17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent BuIntent = new Intent(MapActivity.this, TtimeActivity.class);
+                String myID = "융합과학관";
+                BuIntent.putExtra("String", myID);
+                startActivity(BuIntent);
+            }
+        });
     }
 }
